@@ -9,7 +9,7 @@ class BkgDrop
         var options = new BkgOptions(ConsoleColor.DarkBlue, ConsoleColor.White, "(randomized)");
 
         Console.WriteLine("Background Color: " + options.GetBackgroundColor());
-        string backgroundColorInput = Console.ReadLine();
+        string? backgroundColorInput = Console.ReadLine();
         if (Enum.TryParse(backgroundColorInput, true, out ConsoleColor backgroundColor))
         {
             options.SetBackgroundColor(backgroundColor);
@@ -20,7 +20,7 @@ class BkgDrop
         }
 
         Console.WriteLine("Text Color: " + options.GetTextColor());
-        string textColorInput = Console.ReadLine();
+        string? textColorInput = Console.ReadLine();
         if (Enum.TryParse(textColorInput, true, out ConsoleColor textColor))
         {
             options.SetTextColor(textColor);
