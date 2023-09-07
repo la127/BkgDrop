@@ -35,14 +35,14 @@ class BkgDrop
         Console.BackgroundColor = options.GetBackgroundColor();
         Console.ForegroundColor = options.GetTextColor();
 
-        // Set the initial width and height of the console buffer and window
-        int initialConsoleWidth = Console.WindowWidth;
-        int initialConsoleHeight = Console.WindowHeight;
-
         while (true)
         {
-            // Generate and display the random ASCII art
-            string asciiArt = GenerateRandomAsciiArt(initialConsoleWidth, initialConsoleHeight);
+            // Get the current window size
+            int currentConsoleWidth = Console.WindowWidth;
+            int currentConsoleHeight = Console.WindowHeight;
+
+            // Generate and display the random ASCII art based on the current window size
+            string asciiArt = GenerateRandomAsciiArt(currentConsoleWidth, currentConsoleHeight);
             Console.SetCursorPosition(0, 0); // Reset cursor position
             Console.WriteLine(asciiArt);
 
