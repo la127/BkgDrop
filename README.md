@@ -22,10 +22,9 @@ BkgDrop is a simple C# console application that allows you to customize the back
 - **Interactive**: The program prompts you for input, making it easy to configure the settings.
 
 ## Example
-![image](https://github.com/la127/BkgDrop/assets/100445409/5cb0510a-add1-4a49-a189-7b13d1540979)
+![image](https://github.com/la127/BkgDrop/assets/100445409/97cc89f4-dcfb-4567-a915-502360b9baf9)
 
-![image](https://github.com/la127/BkgDrop/assets/100445409/bb301b64-5777-4323-87b5-1eb016507741)
-
+![image](https://github.com/la127/BkgDrop/assets/100445409/1d93848f-4896-4139-8aba-529726beac6c)
 
 ![BkgDrop Example](bkgdrop_example.gif)
 
