@@ -1,0 +1,15 @@
+/home/owen/Repos/BkgDrop/bin/Debug/net7.0/BkgDrop
+/home/owen/Repos/BkgDrop/bin/Debug/net7.0/BkgDrop.deps.json
+/home/owen/Repos/BkgDrop/bin/Debug/net7.0/BkgDrop.runtimeconfig.json
+/home/owen/Repos/BkgDrop/bin/Debug/net7.0/BkgDrop.dll
+/home/owen/Repos/BkgDrop/bin/Debug/net7.0/BkgDrop.pdb
+/home/owen/Repos/BkgDrop/obj/Debug/net7.0/BkgDrop.csproj.AssemblyReference.cache
+/home/owen/Repos/BkgDrop/obj/Debug/net7.0/BkgDrop.GeneratedMSBuildEditorConfig.editorconfig
+/home/owen/Repos/BkgDrop/obj/Debug/net7.0/BkgDrop.AssemblyInfoInputs.cache
+/home/owen/Repos/BkgDrop/obj/Debug/net7.0/BkgDrop.AssemblyInfo.cs
+/home/owen/Repos/BkgDrop/obj/Debug/net7.0/BkgDrop.csproj.CoreCompileInputs.cache
+/home/owen/Repos/BkgDrop/obj/Debug/net7.0/BkgDrop.dll
+/home/owen/Repos/BkgDrop/obj/Debug/net7.0/refint/BkgDrop.dll
+/home/owen/Repos/BkgDrop/obj/Debug/net7.0/BkgDrop.pdb
+/home/owen/Repos/BkgDrop/obj/Debug/net7.0/BkgDrop.genruntimeconfig.cache
+/home/owen/Repos/BkgDrop/obj/Debug/net7.0/ref/BkgDrop.dll
