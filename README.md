@@ -25,9 +25,6 @@ BkgDrop is a simple C# console application that allows you to customize the back
 ![image](https://github.com/la127/BkgDrop/assets/100445409/97cc89f4-dcfb-4567-a915-502360b9baf9)
 
 ![image](https://github.com/la127/BkgDrop/assets/100445409/1d93848f-4896-4139-8aba-529726beac6c)
-
-![BkgDrop Example](bkgdrop_example.gif)
-
 ## BkgOptions Class
 
 The `BkgOptions` class is used to manage the background color, text color, and art text (description) for the ASCII art. It provides methods for setting and getting these properties.
