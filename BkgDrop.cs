@@ -8,26 +8,39 @@ class BkgDrop
     {
         var options = new BkgOptions(ConsoleColor.DarkBlue, ConsoleColor.White, "(randomized)");
 
-        Console.WriteLine("Background Color: " + options.GetBackgroundColor());
-        string? backgroundColorInput = Console.ReadLine();
-        if (Enum.TryParse(backgroundColorInput, true, out ConsoleColor backgroundColor))
+        // Background Color Input
+        while (true)
         {
-            options.SetBackgroundColor(backgroundColor);
-        }
-        else
-        {
-            Console.WriteLine("Invalid color. Using default.");
+            Console.WriteLine("Background Color: ");
+            string? backgroundColorInput = Console.ReadLine();
+
+            if (Enum.TryParse(backgroundColorInput, true, out ConsoleColor backgroundColor))
+            {
+                options.SetBackgroundColor(backgroundColor);
+                Console.WriteLine("Using: " + backgroundColor);
+                break; // Exit the loop on valid input
+            }
+            else
+            {
+                Console.WriteLine("Invalid color. Please try again.");
+            }
         }
 
-        Console.WriteLine("Text Color: " + options.GetTextColor());
-        string? textColorInput = Console.ReadLine();
-        if (Enum.TryParse(textColorInput, true, out ConsoleColor textColor))
+        // Text Color Input
+        while (true)
         {
-            options.SetTextColor(textColor);
-        }
-        else
-        {
-            Console.WriteLine("Invalid color. Using default.");
+            Console.WriteLine("Text Color: ");
+            string? textColorInput = Console.ReadLine();
+
+            if (Enum.TryParse(textColorInput, true, out ConsoleColor textColor))
+            {
+                options.SetTextColor(textColor);
+                break; // Exit the loop on valid input
+            }
+            else
+            {
+                Console.WriteLine("Invalid color. Please try again.");
+            }
         }
 
         // Clear the console and set background and text colors
