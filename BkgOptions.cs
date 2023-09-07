@@ -9,15 +9,18 @@ public class BkgOptions {
         ArtText = artText;
     }
     
-    public SetBackgroundColor(ConsoleColor color) {
+    public void SetBackgroundColor(ConsoleColor color)
+    {
         BackgroundColor = color;
     }
 
-    public SetTextColor(ConsoleColor color) {
+    public void SetTextColor(ConsoleColor color)
+    {
         TextColor = color;
     }
 
-    public SetArtText(string text) {
+    public void SetArtText(string text)
+    {
         ArtText = text;
     }
 
