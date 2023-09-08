@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using System;
+using System.Text;
+using System.Threading;
 
 class BkgDrop
 {
@@ -54,7 +56,7 @@ class BkgDrop
 
             // Generate and display the random ASCII art based on the current window size
             string asciiArt = GenerateRandomAsciiArt(currentConsoleWidth, currentConsoleHeight);
-            Console.SetCursorPosition(0, 0); // Reset cursor position
+            Console.Clear();
             Console.WriteLine(asciiArt);
 
             Console.WriteLine("Press 'Enter' to refresh or 'Q' to quit.");
